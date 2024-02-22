@@ -5,7 +5,7 @@
 %global crate tree-sitter-lua
 
 Name:           rust-tree-sitter-lua
-Version:        0.0.19
+Version:        0.0.14
 Release:        %autorelease
 Summary:        Lua grammar for the tree-sitter parsing library
 
