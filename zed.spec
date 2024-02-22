@@ -14,6 +14,8 @@ License:        # FIXME
 URL:            https://zed.dev
 Source:         https://github.com/zed-industries/zed/archive/refs/tags/v%{version}.tar.gz
 
+Patch0: bump-tree-sitter-lua.patch
+
 BuildRequires:  cargo-rpm-macros >= 24
 
 %global _description %{expand:
