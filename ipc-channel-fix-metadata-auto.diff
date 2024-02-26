@@ -1,0 +1,18 @@
+--- ipc-channel-0.16.0/Cargo.toml	1970-01-01T00:00:01+00:00
++++ ipc-channel-0.16.0/Cargo.toml	2024-02-26T18:55:36.252261+00:00
+@@ -76,15 +76,3 @@
+ version = "0.2.2"
+ optional = true
+ 
+-[target."cfg(target_os = \"windows\")".dependencies.winapi]
+-version = "0.3.7"
+-features = [
+-    "minwindef",
+-    "ioapiset",
+-    "memoryapi",
+-    "namedpipeapi",
+-    "handleapi",
+-    "fileapi",
+-    "impl-default",
+-    "synchapi",
+-]

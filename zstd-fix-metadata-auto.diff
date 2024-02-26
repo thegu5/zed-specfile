@@ -1,0 +1,16 @@
+--- zstd-0.11.2+zstd.1.5.2/Cargo.toml	1970-01-01T00:00:01+00:00
++++ zstd-0.11.2+zstd.1.5.2/Cargo.toml	2024-02-26T19:00:33.199816+00:00
+@@ -12,7 +12,7 @@
+ [package]
+ edition = "2018"
+ name = "zstd"
+-version = "0.11.2+zstd.1.5.2"
++version = "0.11.2"
+ authors = ["Alexandre Bury <alexandre.bury@gmail.com>"]
+ exclude = ["assets/*.zst"]
+ description = "Binding for the zstd compression library."
+@@ -80,3 +80,4 @@
+ 
+ [badges.travis-ci]
+ repository = "gyscos/zstd-rs"
++

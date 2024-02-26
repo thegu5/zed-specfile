@@ -2,7 +2,7 @@
 %bcond_without check
 
 Name:           zed
-Version:        0.123.2
+Version:        0.123.6
 Release:        %autorelease
 Summary:        Fast, collaborative code editor
 
